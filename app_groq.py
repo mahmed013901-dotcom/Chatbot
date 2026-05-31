@@ -226,7 +226,7 @@ hr { border-color: var(--border) !important; }
 # For Streamlit Cloud: add it in App Settings → Secrets as GROQ_API_KEY = "your_key"
 
 def get_groq_client():
-    api_key = "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"
+    api_key = "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"
     return Groq(api_key=api_key)
 
 
